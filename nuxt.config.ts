@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     reactivityTransform: true,
     viteNode: false,
   },
-  plugins: [
+  plugins: [{ src: '~/plugins/vercel.ts', mode: 'client' }
   ],
   colorMode: {
     classSuffix: '',
